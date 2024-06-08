@@ -1,0 +1,6 @@
+@proto_backend_HostAddress = http://localhost:5031
+
+GET {{proto_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
